@@ -7,7 +7,7 @@ class AuthorsController < ApplicationController
     @author = Author.new
   end
 
-  def create    
+  def create
     @author = Author.new(author_params)
 
     if @author.save
