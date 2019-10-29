@@ -16,7 +16,7 @@ class AuthorsController < ApplicationController
       render :new
     end
   end
-  
+
   def edit
     @author = Author.find(params[:id])
   end
